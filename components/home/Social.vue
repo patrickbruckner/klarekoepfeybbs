@@ -11,7 +11,9 @@ import InstagramButton from '../base/InstagramButton.vue'
       </span>
     </LayoutPageSectionTitle>
 
-    <FacebookButton />
-    <InstagramButton />
+    <div class="flex justify-center gap-5">
+      <FacebookButton />
+      <InstagramButton />
+    </div>
   </LayoutPageSection>
 </template>

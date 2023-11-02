@@ -8,6 +8,5 @@ useHead({ titleTemplate: '', title: 'Klare Köpfe Ybbs' })
     <HomeBanner />
     <HomeProjects />
     <HomeFoundation />
-    <HomeSocial />
   </LayoutPageWrapper>
 </template>
