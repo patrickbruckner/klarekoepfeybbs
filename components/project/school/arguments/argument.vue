@@ -1,7 +1,7 @@
 import { Icon } from '.nuxt/components';
 <script setup lang="ts">
 interface Props {
-  pro: boolean
+  pro?: boolean
 }
 const props = withDefaults(defineProps<Props>(), {
   pro: false,
