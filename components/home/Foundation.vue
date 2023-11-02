@@ -6,11 +6,15 @@
       <span class="text-2xl font-bold">Gründung</span>
     </LayoutPageSectionTitle>
 
+    <p class="mb-4">
+      Anlass für die Gründung der Klare Köpfe Ybbs ist der geplante Schulneubau
+      auf dem Areal der FZZ Ybbs. 
+    </p>
+
     <p class="mb-12">
-      Anlass für die Gründung ist der geplante Schulneubau auf dem Areal der FZZ
-      Ybbs. Themenfelder wie lebendiges und lebenswertes Ortszentrum,
-      Verkehrsberuhigung und Nachhaltigkeit stehen damit in Verbindung und sind
-      uns wichtig.
+      Themenfelder wie lebendiges und lebenswertes Ortszentrum,
+      Verkehrsberuhigung, Nachhaltigkeit und Bodenschutz stehen damit in
+      Verbindung und sind uns wichtig.
     </p>
 
     <AwesomeCard>

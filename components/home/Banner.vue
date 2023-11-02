@@ -39,8 +39,8 @@
         </span>
       </h1>
       <div class="px-4 mt-6 text-lg text-center max-w-[500px] md:max-w-[600px]">
-        ist eine offene, unabhängige und überparteiliche Bürger:innenbewegung in
-        der sich Menschen zusammenfinden, um mit Engagement, wirtschaftlichem
+        ist eine offene, unabhängige und überparteiliche Bürger:innenbewegung,
+        in der sich Menschen zusammenfinden, um mit Engagement, wirtschaftlichem
         Hausverstand und profundem Wissen, die Entwicklung in unserer Stadt
         positiv zu beeinflussen.
       </div>
