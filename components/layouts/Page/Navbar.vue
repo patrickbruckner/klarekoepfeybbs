@@ -47,14 +47,11 @@ const showDrawer = ref(false)
         <slot name="title">
           <NuxtLink
             to="/"
-            class="flex items-center gap-3 font-bold text-lg text-primary-500"
+            class="flex items-center gap-3 font-bold text-2xl text-primary-500"
           >
-            <Icon
-              v-if="false"
-              name="simple-icons:nuxtdotjs"
-              class="font-black text-xl font-mono mr-2 inline-block"
-            />
-            <img src="/logo.svg" class="w-10" />
+            <div class="bg-white rounded-full p-1">
+              <img src="/logo.svg" class="w-10" />
+            </div>
             <span class="capitalize">Klare Köpfe Ybbs</span>
           </NuxtLink>
         </slot>

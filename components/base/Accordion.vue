@@ -27,7 +27,7 @@ function toggle() {
       </AwesomeButton>
     </summary>
     <div
-      class="bg-white p-4 border rounded-md transition-all duration-300 ease-in-out"
+      class="bg-white dark:bg-black p-4 border rounded-md transition-all duration-300 ease-in-out"
     >
       <slot />
     </div>
