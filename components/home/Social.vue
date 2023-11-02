@@ -4,7 +4,7 @@ import InstagramButton from '../base/InstagramButton.vue'
 </script>
 
 <template>
-  <LayoutPageSection class="space-y-4">
+  <LayoutPageSection class="space-y-4 px-4">
     <LayoutPageSectionTitle>
       <span class="text-2xl font-bold">
         Weitere Informationen auf Social Media

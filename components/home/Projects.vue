@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import PetitionButton from '../base/PetitionButton.vue'
+</script>
 
 <template>
   <LayoutPageSection>
@@ -28,9 +30,8 @@
         </div>
 
         <div class="flex items-center justify-between">
-          <AwesomeButton href="projekte/gegen-schul-neubau/unterschreiben">
-            Hier unterschreiben
-          </AwesomeButton>
+          <PetitionButton small />
+
           <AwesomeButton href="projekte/gegen-schul-neubau">
             Zum Projekt
           </AwesomeButton>
