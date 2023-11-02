@@ -87,11 +87,11 @@ const tableClassName = ['flex items-center justify-between'].join()
             <div class="mt-2">
               <b>Nutzfläche:</b>
               <div class="flex justify-between items-center">
-                <label>Bestand HAK: (bitte noch überprüfen)</label>
+                <label>Bestand HTL:</label>
                 <BaseValue v="1.360" unit="m2" />
               </div>
               <div class="flex justify-between items-center">
-                <label>Bestand HTL: (bitte noch überprüfen)</label>
+                <label>Bestand HAK:</label>
                 <BaseValue v="2.190" unit="m2" />
               </div>
               <div class="flex justify-between items-center">
