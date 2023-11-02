@@ -109,6 +109,11 @@ export default defineNuxtConfig({
       path: resolve('./components/project'),
       global: true,
     },
+    {
+      prefix: 'Home',
+      path: resolve('./components/home'),
+      global: true,
+    },
   ],
 
   imports: {

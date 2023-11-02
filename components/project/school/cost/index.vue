@@ -6,6 +6,7 @@
       <span class="text-2xl font-bold">Projektkosten</span>
     </LayoutPageSectionTitle>
 
+    <ProjectSchoolCostTotal />
     <ProjectSchoolCostBuilding />
     <ProjectSchoolCostParking />
     <ProjectSchoolCostDiverses />

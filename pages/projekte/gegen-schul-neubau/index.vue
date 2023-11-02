@@ -7,17 +7,6 @@ useHead({ titleTemplate: '', title: 'Gegen den Schul-Neubau' })
   <LayoutPageWrapper class="space-y-10">
     <ProjectSchoolHeader />
 
-    <img src="/images/projekte/schulbau/SkizzeNeubau.jpg" alt="Skizze Neubau" />
-
-    <BaseContentIndex
-      :elements="[
-        { href: '#argumente', text: 'Warum wir uns einbringen' },
-        { href: '#informationen', text: 'Weitere Informationen' },
-        { href: '#kosten', text: 'Projektkosten' },
-        { href: '#plaene', text: 'Pläne und Skizzen' },
-      ]"
-    />
-
     <ProjectSchoolArguments id="argumente" />
 
     <ProjectSchoolFurtherInformation id="informationen" />

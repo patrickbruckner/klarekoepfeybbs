@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const tableClassName = ['flex items-center justify-between'].join()
+const tableClassName = ['flex items-center justify-between gap-4'].join()
 </script>
 
 <template>
@@ -11,12 +11,12 @@ const tableClassName = ['flex items-center justify-between'].join()
       <AwesomeCardContent>
         <BaseAccordion>
           <template #summary>
-            <AwesomeCardTitle>Zusatzkosten</AwesomeCardTitle>
+            <AwesomeCardTitle>Neubau</AwesomeCardTitle>
             <BaseValue v="1.080.000" unit="€" class="text-4xl font-bold" />
           </template>
           <!-- Details -->
           <b>Innbegriffen:</b>
-          <div class="mt-2 grid gap-2">
+          <div class="mt-2 grid gap-4">
             <div :class="tableClassName">
               <label>
                 Kleinfeld Sportplatz <BaseValue v="900" unit="m2" />
@@ -61,7 +61,7 @@ const tableClassName = ['flex items-center justify-between'].join()
       <AwesomeCardContent>
         <BaseAccordion>
           <template #summary>
-            <AwesomeCardTitle>Zusatzkosten</AwesomeCardTitle>
+            <AwesomeCardTitle>Umbau</AwesomeCardTitle>
             <BaseValue v="1.000.000" unit="€" class="text-4xl font-bold" />
           </template>
           <!-- Details -->

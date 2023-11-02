@@ -16,35 +16,37 @@ const containerClass = computed(() =>
 </script>
 
 <template>
-  <div class="flex items-center justify-between">
-    <BaseHeadline id="Fotos" level="2">Fotos</BaseHeadline>
-    <AwesomeButton @click="isSlider = !isSlider" class="">
-      <Icon
-        :name="
-          isSlider
-            ? 'solar:slider-vertical-minimalistic-outline'
-            : 'material-symbols:gallery-thumbnail-outline-sharp'
-        "
-        class="text-2xl"
-      />
-    </AwesomeButton>
-  </div>
+  <LayoutPageSection>
+    <div class="flex items-center justify-between">
+      <BaseHeadline id="Fotos" level="2">Fotos</BaseHeadline>
+      <AwesomeButton @click="isSlider = !isSlider" class="">
+        <Icon
+          :name="
+            isSlider
+              ? 'solar:slider-vertical-minimalistic-outline'
+              : 'material-symbols:gallery-thumbnail-outline-sharp'
+          "
+          class="text-2xl"
+        />
+      </AwesomeButton>
+    </div>
 
-  <div :class="containerClass">
-    <img
-      :class="imageClassName"
-      src="/images/projekte/schulbau/Schulring.jpg"
-      alt="Schul-Neubau"
-    />
-    <img
-      :class="imageClassName"
-      src="/images/projekte/schulbau/SkizzeNeubau.jpg"
-      alt="Schul-Neubau"
-    />
-    <img
-      :class="imageClassName"
-      src="/images/projekte/schulbau/SkizzeUmbau.jpg"
-      alt="Schul-Neubau"
-    />
-  </div>
+    <div :class="containerClass">
+      <img
+        :class="imageClassName"
+        src="/images/projekte/schulbau/Schulring.jpg"
+        alt="Schul-Neubau"
+      />
+      <img
+        :class="imageClassName"
+        src="/images/projekte/schulbau/SkizzeNeubau.jpg"
+        alt="Schul-Neubau"
+      />
+      <img
+        :class="imageClassName"
+        src="/images/projekte/schulbau/SkizzeUmbau.jpg"
+        alt="Schul-Neubau"
+      />
+    </div>
+  </LayoutPageSection>
 </template>
