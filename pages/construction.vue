@@ -4,10 +4,10 @@ useHead({ titleTemplate: '', title: 'Bearbeitung - Klare Köpfe Ybbs' })
 </script>
 
 <template>
-  <LayoutPageWrapper class="space-y-5">
+  <LayoutPageWrapper class="space-y-5 flex flex-col items-center">
     <LayoutPageSectionTitle>Im Aufbau</LayoutPageSectionTitle>
 
-    <AwesomeCard>
+    <AwesomeCard class="max-w-lg">
       <AwesomeCardContent class="grid items-center justify-center gap-5">
         <BaseHeadline level="1">
           🚧 Unsere Webseite ist bald für Sie da! 🚧
