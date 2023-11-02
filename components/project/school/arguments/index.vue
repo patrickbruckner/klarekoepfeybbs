@@ -36,7 +36,7 @@
         </AwesomeCardContent>
       </AwesomeCard>
 
-      <AwesomeCard class="bg-green-50">
+      <AwesomeCard className="bg-green-50">
         <AwesomeCardContent class="flex flex-col gap-5">
           <ProjectSchoolArgumentsArgument pro>
             Verkehrsberuhigte Begegnungszone, Grünflächen

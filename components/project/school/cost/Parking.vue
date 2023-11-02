@@ -18,7 +18,7 @@ const tableClassName = ['flex items-center justify-between'].join()
     </AwesomeCard>
 
     <!-- Umbau -->
-    <AwesomeCard class="bg-green-50">
+    <AwesomeCard className="bg-green-50">
       <AwesomeCardContent>
         <AwesomeCardTitle>Parkhaus mit 3 Ebenen</AwesomeCardTitle>
         <div class="text-lg">begrünte Fassade, 70 Stellplätze</div>
