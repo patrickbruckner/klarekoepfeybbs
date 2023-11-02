@@ -46,7 +46,7 @@ const tableClassName = ['flex items-center justify-between'].join()
     </AwesomeCard>
 
     <!-- Umbau -->
-    <AwesomeCard className="bg-green-50">
+    <AwesomeCard className="bg-green-50 dark:bg-green-700">
       <AwesomeCardContent>
         <BaseAccordion>
           <template #summary>
