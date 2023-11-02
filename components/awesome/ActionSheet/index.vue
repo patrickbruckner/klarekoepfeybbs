@@ -55,10 +55,10 @@ onMounted(() => {
           class="action-sheet-container flex-1 overflow-y-auto space-y-1 justify-end px-4 pb-2 pt-4"
         >
           <slot />
-          <AwesomeActionSheetGroup v-if="closeButton">
+          <AwesomeActionSheetGroup v-if="closeButton" class="bg-white">
             <AwesomeActionSheetItemButton
               class="text-red-500 font-bold"
-              :text="closeButtonText"
+              text="Schließen"
               @click="close"
             />
           </AwesomeActionSheetGroup>

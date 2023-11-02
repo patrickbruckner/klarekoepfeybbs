@@ -8,6 +8,11 @@ export default defineNuxtConfig({
     localLayerAliases: true,
   },
 
+  // // dev server config
+  // devServer: {
+  //   port: 4000,
+  // },
+
   // app config
   app: {
     // global transition
@@ -55,6 +60,16 @@ export default defineNuxtConfig({
     {
       prefix: 'Awesome',
       path: resolve('./components/awesome'),
+      global: true,
+    },
+    {
+      prefix: 'Base',
+      path: resolve('./components/base'),
+      global: true,
+    },
+    {
+      prefix: 'Project',
+      path: resolve('./components/project'),
       global: true,
     },
   ],

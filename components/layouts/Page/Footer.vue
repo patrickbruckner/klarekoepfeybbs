@@ -1,7 +1,3 @@
-<script lang="ts" setup>
-const { awesome } = useAppConfig()
-</script>
-
 <template>
   <footer class="flex border-t border-gray-900/10 dark:border-gray-50/[0.2]">
     <div
@@ -9,10 +5,9 @@ const { awesome } = useAppConfig()
     >
       <div>
         Copyright ©
-        {{ awesome?.layout?.footer?.year || new Date().getFullYear() }}
-        {{ awesome?.author?.name || '' }}. All rights reserved.
+        {{ new Date().getFullYear() }}
+        Klare Köpfe Ybbs. Alle Rechte vorbehalten.
       </div>
-      <div>{{ awesome.name }}</div>
     </div>
   </footer>
 </template>

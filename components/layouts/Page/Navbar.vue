@@ -1,16 +1,34 @@
 <script lang="ts" setup>
-import { RouteLocationRaw } from 'vue-router'
 import { AwesomeLayoutPageNavbarMenu } from '../../../types'
 
-const { awesome } = useAppConfig()
 const $screen = useAwesomeScreen()
 const nuxtApp = useNuxtApp()
 
-const menus = computed(
-  () =>
-    (awesome?.layout?.page?.navbar?.menus ||
-      []) as AwesomeLayoutPageNavbarMenu[]
-)
+const menus = computed(() => {
+  return [
+    {
+      title: 'Startseite',
+      type: 'link',
+      to: '/',
+    },
+    {
+      title: 'Projekte',
+      type: 'dropdown',
+      children: [
+        {
+          title: 'Schulbau',
+          type: 'link',
+          to: '/projekte/gegen-schul-neubau',
+        },
+      ],
+    },
+    {
+      title: 'Impressum',
+      type: 'link',
+      to: '/impressum',
+    },
+  ] as AwesomeLayoutPageNavbarMenu[]
+})
 
 // drawer
 const showDrawer = ref(false)
@@ -27,15 +45,21 @@ const showDrawer = ref(false)
       <!-- title -->
       <div>
         <slot name="title">
-          <NuxtLink to="/" class="font-bold text-lg text-primary-500">
+          <NuxtLink
+            to="/"
+            class="flex items-center gap-3 font-bold text-lg text-primary-500"
+          >
             <Icon
+              v-if="false"
               name="simple-icons:nuxtdotjs"
               class="font-black text-xl font-mono mr-2 inline-block"
             />
-            <span class="capitalize">{{ awesome.name }}</span>
+            <img src="/logo.svg" class="w-10" />
+            <span class="capitalize">Klare Köpfe Ybbs</span>
           </NuxtLink>
         </slot>
       </div>
+
       <!-- menus -->
       <div
         v-if="$screen.higherThan('md', $screen.current.value)"
@@ -55,13 +79,6 @@ const showDrawer = ref(false)
             <Icon name="la:language" />
           </AwesomeLink> -->
           <LayoutPageNavbarDropdownThemeSwitcher />
-          <AwesomeLink
-            v-if="awesome?.project?.links?.github"
-            class="dark:text-gray-400 text-gray-600"
-            :href="awesome?.project?.links?.github"
-          >
-            <Icon name="mdi:github-face" />
-          </AwesomeLink>
         </div>
       </div>
       <!-- drawer:btn -->
@@ -72,7 +89,6 @@ const showDrawer = ref(false)
       >
         <div class="pl-4 flex space-x-3 text-xl">
           <AwesomeLink
-            v-if="awesome?.project?.links?.github"
             class="text-gray-400 hover:text-gray-100"
             @click.prevent="() => (showDrawer = !showDrawer)"
           >
@@ -87,9 +103,9 @@ const showDrawer = ref(false)
       v-if="!$screen.higherThan('md', $screen.current.value) && showDrawer"
       @close="() => (showDrawer = false)"
     >
-      <AwesomeActionSheetGroup>
+      <AwesomeActionSheetGroup class="bg-white">
         <AwesomeActionSheetHeader>
-          <AwesomeActionSheetHeaderTitle text="Menu" />
+          <AwesomeActionSheetHeaderTitle text="Menü" />
         </AwesomeActionSheetHeader>
         <!-- dynamic menus -->
         <AwesomeActionSheetItem>
@@ -182,19 +198,11 @@ const showDrawer = ref(false)
         <AwesomeActionSheetItem class="flex flex-col">
           <div class="pb-2">
             <div class="mt-2 mb-2 text-sm font-bold capitalize">
-              Change Theme
+              Farbmodus Ändern
             </div>
             <LayoutPageNavbarDropdownThemeSwitcher type="select-box" />
           </div>
         </AwesomeActionSheetItem>
-      </AwesomeActionSheetGroup>
-      <AwesomeActionSheetGroup>
-        <AwesomeActionSheetItemButton
-          class="flex justify-center items-center text-base space-x-2"
-        >
-          <Icon name="mdi:github-face" class="text-lg font-bold" />
-          <span class="text-sm">Github</span>
-        </AwesomeActionSheetItemButton>
       </AwesomeActionSheetGroup>
     </AwesomeActionSheet>
   </header>

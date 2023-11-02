@@ -10,11 +10,11 @@ const currentStyle = toRef(props, 'type')
 const availableThemes = [
   {
     key: 'light',
-    text: 'Light',
+    text: 'Hell',
   },
   {
     key: 'dark',
-    text: 'Dark',
+    text: 'Dunkel',
   },
   {
     key: 'system',
