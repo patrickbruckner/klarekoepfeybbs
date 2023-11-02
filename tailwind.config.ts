@@ -43,6 +43,14 @@ const MyTheme = {
       '800': '#BB0000',
       '900': '#830000',
     },
+    facebook: {
+      DEFAULT: '#1877F2',
+      hover: '#166FE5',
+    },
+    instagram: {
+      DEFAULT: 'rgb(193, 53, 132)',
+      hover: 'rgb(172, 48, 119)',
+    },
   },
 }
 
@@ -71,6 +79,8 @@ export default <Partial<Config>>{
         green: MyTheme.colors.green,
         blue: MyTheme.colors.blue,
         red: MyTheme.colors.red,
+        facebook: MyTheme.colors.facebook,
+        instagram: MyTheme.colors.instagram,
         slate: colors.slate,
       },
       fontFamily: {
