@@ -29,7 +29,7 @@ import PetitionButton from '../base/PetitionButton.vue'
           Alternative am Standort in Erwägung zu ziehen.
         </div>
 
-        <div class="flex items-center justify-between">
+        <div class="grid md:grid-cols-2 items-center gap-3">
           <PetitionButton small />
 
           <AwesomeButton href="projekte/gegen-schul-neubau">

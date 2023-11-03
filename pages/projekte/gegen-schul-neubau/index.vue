@@ -9,11 +9,11 @@ useHead({ titleTemplate: '', title: 'Gegen den Schul-Neubau' })
 
     <ProjectSchoolArguments id="argumente" />
 
-    <ProjectSchoolFurtherInformation id="informationen" />
-
     <!-- Kosten -->
     <ProjectSchoolCost id="kosten" />
 
     <ProjectSchoolPhotos id="plaene" />
+
+    <ProjectSchoolFurtherInformation id="informationen" />
   </LayoutPageWrapper>
 </template>

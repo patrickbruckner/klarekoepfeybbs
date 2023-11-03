@@ -33,3 +33,9 @@ function toggle() {
     </div>
   </details>
 </template>
+
+<style scoped>
+details summary::-webkit-details-marker {
+  display: none;
+}
+</style>

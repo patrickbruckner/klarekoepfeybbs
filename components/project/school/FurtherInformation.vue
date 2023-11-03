@@ -13,16 +13,5 @@
         sie in unseren Profilen:
       </p>
     </div>
-
-    <div class="space-y-2 mt-3">
-      <AwesomeButton
-        href="https://www.facebook.com/profile.php?id=61552866832620"
-      >
-        Facebook (Klare Köpfe Ybbs)
-      </AwesomeButton>
-      <AwesomeButton to="https://www.instagram.com/klarekoepfeybbs/">
-        Instagram (@klarekoepfeybbs)
-      </AwesomeButton>
-    </div>
   </LayoutPageSection>
 </template>
