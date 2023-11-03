@@ -18,9 +18,9 @@
         <BaseContentIndex
           :elements="[
             { href: '#argumente', text: 'Warum wir uns einbringen' },
-            { href: '#informationen', text: 'Weitere Informationen' },
             { href: '#kosten', text: 'Projektkosten' },
             { href: '#plaene', text: 'Pläne und Skizzen' },
+            { href: '#informationen', text: 'Weitere Informationen' },
           ]"
         />
       </div>
