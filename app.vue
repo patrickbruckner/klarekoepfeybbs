@@ -1,7 +1,23 @@
 <script lang="ts" setup>
+const title = 'Klare Köpfe Ybbs'
+const description =
+  '... ist eine offene, unabhängige und überparteiliche Bürger:innenbewegung, in der sich Menschen zusammenfinden, um mit Engagement, wirtschaftlichem Hausverstand und profundem Wissen, die Entwicklung in unserer Stadt positiv zu beeinflussen.'
+
 useHead({
-  title: 'Klare Köpfe Ybbs',
+  title,
   titleTemplate: `%s - Klare Köpfe Ybbs`,
+})
+
+//TODO: Email Weiterleitung
+// email: rudolf-wolfgang.braun@gmx.at
+
+useSeoMeta({
+  title,
+  ogTitle: title,
+  description,
+  ogDescription: description,
+  ogImage: '/icon.png',
+  twitterCard: 'summary_large_image',
 })
 </script>
 

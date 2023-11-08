@@ -15,6 +15,8 @@
           Alternative am Standort in Erwägung zu ziehen.
         </p>
 
+        <BasePetitionButton />
+
         <BaseContentIndex
           :elements="[
             { href: '#argumente', text: 'Warum wir uns einbringen' },
