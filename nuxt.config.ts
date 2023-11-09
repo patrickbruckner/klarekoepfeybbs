@@ -46,6 +46,11 @@ export default defineNuxtConfig({
       ],
       meta: [
         {
+          name: 'keywords',
+          content:
+            'Ybbs, Klare Koepfe, Klare Köpfe, Klare Köpfe Ybbs, Bürgerinitiative, Schulbau Ybbs',
+        },
+        {
           name: 'msapplication-TileColor',
           content: '#da532c',
         },
@@ -78,6 +83,9 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     // contents,
     '@nuxt/content',
+
+    // SEO
+    'nuxt-simple-sitemap',
 
     // todo: feat/localization
     // '@nuxtjs/i18n'
