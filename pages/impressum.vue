@@ -81,18 +81,20 @@ useHead({ titleTemplate: '', title: 'Impressum - Klare Köpfe Ybbs' })
 
     <div class="text-sm">
       Quelle:
-      <b
-        ><a
+      <b>
+        <a
           href="https://www.rechtstexte-generator.at/dsgvo-generator-oesterreich/"
-          >Datenschutz DSGVO Generator</a
-        ></b
-      >
-      in Kooperation mit <br /><b
-        ><a
+          >Datenschutz DSGVO Generator
+        </a>
+      </b>
+      in Kooperation mit <br />
+      <b>
+        <a
           href="https://www.ortner-rechtsanwalt.at/rechtsanwalt-eherecht-scheidungsrecht-obsorgerecht/"
-          >Rechtsanwalt Wien Scheidung</a
-        ></b
-      >
+        >
+          Rechtsanwalt Wien Scheidung
+        </a>
+      </b>
     </div>
   </LayoutPageWrapper>
 </template>

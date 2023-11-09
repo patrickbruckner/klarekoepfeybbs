@@ -5,11 +5,11 @@ import InstagramButton from '../base/InstagramButton.vue'
 
 <template>
   <LayoutPageSection class="space-y-4 px-4">
-    <LayoutPageSectionTitle class="text-center">
+    <!-- <LayoutPageSectionTitle class="text-center">
       <span class="text-2xl font-bold">
         Weitere Informationen auf Social Media
       </span>
-    </LayoutPageSectionTitle>
+    </LayoutPageSectionTitle> -->
 
     <div class="flex justify-center gap-5">
       <FacebookButton />

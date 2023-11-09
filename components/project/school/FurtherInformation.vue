@@ -3,15 +3,15 @@
 <template>
   <LayoutPageSection class="grid gap-2 items-center md:grid-cols-2">
     <div>
-      <LayoutPageSectionTitle>
+      <!-- <LayoutPageSectionTitle>
         <span class="text-2xl font-bold">Mehr zum Projekt</span>
-      </LayoutPageSectionTitle>
+      </LayoutPageSectionTitle> -->
 
-      <p>
+      <!-- <p>
         Mehr zum Projekt und den damit einhergehenden Bedenken, Überlegungen
         und weiterführenden Zusammenhängen für unsere Stadt finden und verfolgen
         sie in unseren Profilen:
-      </p>
+      </p> -->
     </div>
   </LayoutPageSection>
 </template>
