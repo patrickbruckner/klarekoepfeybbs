@@ -3,6 +3,9 @@ const { resolve } = createResolver(import.meta.url)
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  site: {
+    url: 'https://klare-koepfe-ybbs.at',
+  },
   // exp
   experimental: {
     localLayerAliases: true,
@@ -83,9 +86,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     // contents,
     '@nuxt/content',
-
-    // SEO
-    'nuxt-simple-sitemap',
 
     // todo: feat/localization
     // '@nuxtjs/i18n'
