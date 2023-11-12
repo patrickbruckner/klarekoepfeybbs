@@ -100,7 +100,7 @@ useHead({ titleTemplate: '', title: 'Gegen den Schul-Neubau - Bürgerforum' })
       </p>
     </LayoutPageSection>
 
-    <AwesomeButton to="/projekte/gegen-schul-neubau" class="mt-4">
+    <AwesomeButton to="/projekte/gegen-schul-neubau" class="mt-4 w-fit">
       zum Projekt
     </AwesomeButton>
   </LayoutPageWrapper>
