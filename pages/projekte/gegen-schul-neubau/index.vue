@@ -13,7 +13,7 @@ useHead({ titleTemplate: '', title: 'Gegen den Schul-Neubau' })
 
     Wie das Bürgerforum abgelaufen ist, erfahren Sie hier.
 
-    <AwesomeButton to="/projekte/gegen-schul-neubau/buergerforum">
+    <AwesomeButton to="/projekte/gegen-schul-neubau/buergerforum" class="w-fit">
       zum Bericht
     </AwesomeButton>
 
