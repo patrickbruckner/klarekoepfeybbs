@@ -15,6 +15,10 @@ useHead({
         3.11.2023
       </LayoutPageSectionTitle>
 
+      <BaseHeadline class="text-red-700">
+        NICHT GENÜGEND. NEU DENKEN. FÜR YBBS !</BaseHeadline
+      >
+
       <AwesomeButton
         to="/projekte/gegen-schul-neubau/buergerforum"
         class="w-fit"
@@ -25,8 +29,8 @@ useHead({
 
     <LayoutPageSection>
       Die Stadtgemeinde Ybbs hat in einem Newsletter zum Bürgerforum am 3.11.
-      2023 eingeladen. Im Folgenden nehmen wir auf die Statements in diesem
-      Newsletter Stellung.
+      2023 eingeladen. Im Folgenden nimmt das überparteiliche „Bürgerforum Klare
+      Köpfe“ zu den Aussagen in diesem Newsletter Stellung.
       <span class="text-red-700">
         (Statements "Kluge Köpfe" farblich hervorgehoben)
       </span>
@@ -34,36 +38,36 @@ useHead({
 
     <LayoutPageSection class="text-red-700">
       <BaseHeadline>
-        Wir fordern, dass die Entscheidungsgrundlagen, auf die hier Bezug
-        genommen wird, öffentlich bekannt gemacht werden und, sofern nicht
-        vorhanden, nachgeholt werden. Diese sind:
+        GRUNDSÄTZLICH fordern wir, dass die Entscheidungs-GRUNDLAGEN, auf die
+        hier Bezug genommen wird, ÖFFENTLICH BEKANNT gemacht und - wenn nicht
+        vorhanden - ehestens nachgeholt werden. Diese sind:
       </BaseHeadline>
 
       <ul class="list-disc list-inside pl-10">
         <li>Stadträumliches Konzept</li>
         <li>STANDORTANALYSEN für die alternativen Standorte</li>
-        <li>prognostizierte Verkehrsbelastung</li>
         <li>Nachnutzungskonzepte von bestehenden Gebäuden</li>
+        <li>prognostizierte Verkehrsbelastung</li>
         <li>
           Verlässliche Kostenschätzungen und Finanzierungskonzepte für die
           Varianten
         </li>
+        <li>Ausreichende Information der Ybbser Bürger:Innen</li>
         <li>Öffentliche Diskussion</li>
       </ul>
     </LayoutPageSection>
 
     <LayoutPageSection>
-      <BaseHeadline>
-        Die Vorteile des neuen Standorts im Detail: (laut Stadtgemeinde)
-      </BaseHeadline>
+      <BaseHeadline> Zu den Aussagen in diesem Newsletter: </BaseHeadline>
+
+      <p>Die Vorteile des neuen Standorts im Detail:</p>
 
       <BaseHeadline>1. Wirtschaftlichkeit:</BaseHeadline>
 
       <BaseStatementWithCounter
         statement="Die Kosten der Sanierung übersteigen die eines Neubaus."
         statementFrom="Stadtgemeinde"
-        answer="Dieses Statement ist nicht nachvollziehbar - es sind keine
-          Kostenschätzungen bekannt gemacht worden."
+        answer="Diese Aussage ist überhaupt NICHT nachvollziehbar, da KEINE Kostenschätzungen bekannt gemacht worden sind."
       />
 
       <BaseStatementWithCounter
@@ -73,22 +77,22 @@ useHead({
       >
         <ul class="list-disc list-outside pl-4">
           <li>
-            Im Kontext der schon bestehenden Leerstände in der Innenstadt
-            erscheint dieses Statement zu optimistisch. Auch hier sind keine
-            Konzepte bekannt.
+            In Verbindung mit schon bestehenden Leerständen in der Innenstadt
+            erscheint diese Aussage viel zu optimistisch, da auch hier keine
+            Konzepte bekannt sind.
           </li>
           <li>
-            Für welche Anrainer Betriebe sollen die Gebäude von Interesse sein?
+            Für welche (Anrainer-)Betriebe sollten die Gebäude von Interesse
+            sein?
           </li>
           <li>Was sollte in den verschiedenen Gebäuden passieren?</li>
-          <li>Was sind die Szenarien?</li>
         </ul>
       </BaseStatementWithCounter>
 
       <BaseStatementWithCounter
         statement="Möglicher Deckungsbeitrag an den Errichtungskosten durch Erträge aus Verkauf und Nachnutzung."
         statementFrom="Stadtgemeinde"
-        answer="Die Formulierung lässt vermuten, dass es nichts weiter ist als eine Möglichkeit und kein solides Konzept dahintersteht."
+        answer="Diese (schwache) Formulierung lässt vermuten, dass es nichts weiter ist als eine niedrig wahrscheinliche Möglichkeit und KEIN solides Konzept dahintersteht."
       />
     </LayoutPageSection>
 
@@ -98,13 +102,13 @@ useHead({
       <BaseStatementWithCounter
         statement="Die Sanierung der bestehenden Gebäude ist mit modernen Unterrichtskonzepten unvereinbar."
         statementFrom="Stadtgemeinde"
-        answer="Dieses Statement ist falsch. Gelungene, hochqualitative und funktionelle Architektur ist durchaus auch im Bestand möglich. Moderne Unterrichtskonzepte sind damit auf jeden Fall vereinbar. Eine von der TU Wien 2019 durchgeführte Entwurfsstudie hat einige sehr sinnvolle Projektvarianten hervorgebracht, die eine gute Basis für einen Wettbewerb am Standort bilden könnten."
+        answer="Diese Aussage ist FALSCH. Gelungene, hochqualitative und funktionelle Architektur ist auch im Bestand möglich. Modernste Unterrichtskonzepte sind damit auf jeden Fall zu verwirklichen. Eine von der TU Wien 2019 durchgeführte Entwurfsstudie hat einige sehr sinnvolle Projektvarianten hervorgebracht, die eine gute Basis für einen Wettbewerb am Standort bilden könnten."
       />
 
       <BaseStatementWithCounter
         statement="Innovative Ausbildung braucht zeitgemäße Architektur, Ausstattung und Raumkonzepte."
         statementFrom="Stadtgemeinde"
-        answer="Diesem Statement schließen wir uns vollinhaltlich an. Innovative Ausbildung braucht zeitgemäße Architektur und gute Baukultur. Diese besteht in der heutigen Zeit in der qualitätsvollen Auseinandersetzung mit dem Bestand und der Vermeidung der Versiegelung von fußläufig erreichbaren Sportflächen."
+        answer="Dieser Aussage schließen wir uns VOLLINHALTLICH an. Innovative Ausbildung braucht zeitgemäße Architektur und gute Baukultur. Diese besteht in der heutigen Zeit in der qualitätsvollen Auseinandersetzung mit dem Bestand und der Vermeidung der Versiegelung von fußläufig erreichbaren Sportflächen."
       />
 
       <BaseStatementWithCounter
@@ -114,43 +118,21 @@ useHead({
         <ul class="list-disc list-outside pl-4">
           <li>
             Von einem Campus zu sprechen ist völlig fehl am Platz: der am
-            Sportplatz vorgesehene Standort hat keine Zukunftsfähigkeit, da
+            Sportplatz vorgesehene Standort hat KEINE Zukunftsfähigkeit, da
             räumlich und verkehrstechnisch auch äußerst eingeengt - keine
             Flexibilität für die Zukunft.
           </li>
           <li>
-            Verlust fußläufig erreichbarer Sportflächen (&lt; 15min City, alle
-            wichtigen Funktionen in einer Stadt sollen in max. 15 min Gehzeit
-            erreichbar sein).
+            Verlust fußläufig erreichbarer Sportflächen (alle wichtigen
+            Funktionen in einer Stadt sollen in max. 15 min Gehzeit erreichbar
+            sein)
           </li>
           <li>
             Es gibt keinen alternativen neuen Ort für die verlorenen
             Sportflächen. Dieser wäre auf jeden Fall nicht mehr fußläufig mit
-            den anderen Schulstandorten verbunden. Die Schaffung weiteren
-            Verkehrsaufkommens ist die Folge.
+            den anderen Schulstandorten verbunden. Eine Erhöhung des
+            Verkehrsaufkommens und der Unfallrisiken wäre die Folge
           </li>
-          <li>
-            Weiterer Verlust von Betrieben durch die Absiedelung der Schule wird
-            überhaupt nicht thematisiert.
-          </li>
-          <li>
-            Die Zerrissenheit des Schulstandortes Ybbs über die B25 hinweg wird
-            längerfristige Probleme schaffen. Der Fußgängerverkehr wird zur
-            Hauptverkehrszeit die B25 queren und eine weitere Verschlechterung
-            der ohnehin schon überlasteten Zone wird die Folge sein.
-          </li>
-          <li>
-            Die anderen Schulstandorte im Bestand (Burg, Weinmaut) werden in der
-            Diskussion überhaupt nicht erwähnt, sollten aber für einen
-            Schulcluster mit in Betracht gezogen werden. Ebenso wird die
-            eventuelle Notwendigkeit für Sanierungen der Volks- und Mittelschule
-            in den nächsten Jahren nicht thematisiert.
-          </li>
-          <li>
-            Die Chance auf eine Aufwertung des existierenden städtischen
-            Schulclusters sollte nicht vergeben werden.
-          </li>
-
           <li>Definition Nachhaltigkeit siehe im Nachsatz</li>
         </ul>
       </BaseStatementWithCounter>
@@ -163,13 +145,23 @@ useHead({
         statement="Andere zur Diskussion stehende Standorte befinden sich nicht im Eigentum der Gemeinde: hohe Pachtkosten auf Jahrzehnte hinaus wären die Folge, kein Eigentum am Schulneubau."
         statementFrom="Stadtgemeinde"
       >
-        <p>
-          Die fehlende langfristige Planung von Seiten der Stadtgemeinde ist ein
-          Mangel, der nicht durch einen Schnellschuss gelöst werden sollte, der
-          noch weitere massive wirtschaftliche Folgen nach sich ziehen wird. Die
-          von den "Klaren Köpfen" favorisierte Sanierungsvariante steht zur
-          Gänze auf Gemeindegrund.
-        </p>
+        <ul class="list-disc list-outside pl-4">
+          <li>
+            Die von den "Klaren Köpfen" favorisierte Sanierungsvariante steht
+            zur Gänze auf Gemeindegrund!
+          </li>
+          <li>
+            Ein Ankauf freiwerdender Gebäude und Grundstücke im
+            Innenstadtbereich sollte forciert werden, um für die Zukunft weitere
+            Möglichkeiten zu schaffen.
+          </li>
+          <li>
+            Die fehlende langfristige Planung seitens der Stadtgemeinde ist ein
+            Mangel, der nicht durch einen Schnellschuss gelöst werden sollte und
+            der noch weitere massive wirtschaftliche Folgen nach sich ziehen
+            wird.
+          </li>
+        </ul>
         <p>
           Ein Ankauf freiwerdender Gebäude und Grundstücke im Innenstadtbereich
           sollte forciert werden, um für die Zukunft weitere Möglichkeiten zu
@@ -182,12 +174,12 @@ useHead({
         statementFrom="Stadtgemeinde"
       >
         <ul class="list-disc list-outside pl-4">
-          <li>Für dieses Statement fehlt jegliche sachliche Argumentation.</li>
+          <li>Für diese Aussage FEHLT jegliche SACHLICHE Argumentation.</li>
           <li>
-            Insgesamte ist eine Verlegung der Schulen an diesen Standort eine
-            äußerst kurzfristig gedachte Lösung, die langfristig enorme Kosten
-            verursachen wird und die städtebauliche Qualität noch weiter massiv
-            verschlechtert.
+            Insgesamt ist eine Verlegung der Schulen an diesen Standort (FZZ)
+            eine äußerst kurzfristig gedachte Lösung, die langfristig enorme
+            Kosten verursachen wird und die städtebauliche Qualität noch weiter
+            massiv verschlechtert.
           </li>
           <li>
             Alle Bewohner der Stadtgemeinde werden an dieser Fehlentscheidung
@@ -204,7 +196,7 @@ useHead({
       <BaseStatementWithCounter
         statement="Die Grundsatzentscheidung des Gemeinderates für den Standort des Neuen Schulzentrums beim FZZ ist ein wichtiger Schritt auf dem Weg zu einer modernen, zeitgemäßen Ausstattung unserer HAK/HAS und IT-HTL. Jetzt können die konkrete Planung und alle weiteren Schritte wie etwa die Durchführung eines Architektenwettbewerbes Zug um Zug mit Hochdruck angegangen werden."
         statementFrom="Bürgermeisterin Ulrike Schachner"
-        answer="Die Durchführung eines Architektenwettbewerbs für ein Projekt dieser Größenordnung ist nur sinnvoll, wenn eine seriöse Bedarfs- und Standortanalyse im Vorfeld durchgeführt wurde, und die Planungsgrundlagen gut vorbereitet wurden."
+        answer="Die Durchführung eines Architektenwettbewerbs für ein Projekt dieser Größenordnung ist nur sinnvoll, wenn eine seriöse Bedarfs- und Standortanalyse im Vorfeld durchgeführt wurde, und die Planungsgrundlagen GUT VORBEREITET wurden"
       />
     </LayoutPageSection>
 
