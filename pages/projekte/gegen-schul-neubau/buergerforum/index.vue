@@ -13,6 +13,13 @@ useHead({ titleTemplate: '', title: 'Gegen den Schul-Neubau - Bürgerforum' })
 
       undemokratisch . respektlos . zensurierend . unprofessionell . inkompetent
       . von oben herab
+
+      <AwesomeButton
+        to="/projekte/gegen-schul-neubau/buergerforum/stellungnahme"
+        class="w-fit"
+      >
+        zur Stellungnahme
+      </AwesomeButton>
     </LayoutPageSection>
 
     <LayoutPageSection>
