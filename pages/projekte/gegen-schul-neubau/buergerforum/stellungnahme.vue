@@ -11,8 +11,9 @@ useHead({
   <LayoutPageWrapper id="content" class="space-y-10 max-w-3xl">
     <LayoutPageSection>
       <LayoutPageSectionTitle>
-        Stellungnahme zum Bürgerforum - Das neue Schulzentrum Ybbs - am
-        3.11.2023
+        Im Folgenden nimmt die überparteiliche „Bürger:Innenbewegung Klare
+        Köpfe“ zu den Aussagen in diesem Newsletter Stellung. (Statements "Klare
+        Köpfe" farblich hervorgehoben)
       </LayoutPageSectionTitle>
 
       <BaseHeadline class="text-red-700">

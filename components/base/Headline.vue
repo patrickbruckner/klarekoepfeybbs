@@ -1,6 +1,6 @@
 <script setup lang="ts">
 interface Props {
-  level: '1' | '2' | '3'
+  level?: '1' | '2' | '3'
   className?: string
 }
 const props = withDefaults(defineProps<Props>(), {
