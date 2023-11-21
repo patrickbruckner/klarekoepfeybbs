@@ -11,9 +11,8 @@ useHead({
   <LayoutPageWrapper id="content" class="space-y-10 max-w-3xl">
     <LayoutPageSection>
       <LayoutPageSectionTitle>
-        Im Folgenden nimmt die überparteiliche „Bürger:Innenbewegung Klare
-        Köpfe“ zu den Aussagen in diesem Newsletter Stellung. (Statements "Klare
-        Köpfe" farblich hervorgehoben)
+        Stellungnahme zum Bürgerforum - Das neue Schulzentrum Ybbs - am
+        3.11.2023
       </LayoutPageSectionTitle>
 
       <BaseHeadline class="text-red-700">
@@ -30,10 +29,11 @@ useHead({
 
     <LayoutPageSection>
       Die Stadtgemeinde Ybbs hat in einem Newsletter zum Bürgerforum am 3.11.
-      2023 eingeladen. Im Folgenden nimmt das überparteiliche „Bürgerforum Klare
-      Köpfe“ zu den Aussagen in diesem Newsletter Stellung.
+      2023 eingeladen. Im Folgenden nimmt die überparteiliche
+      „Bürger:Innenbewegung Klare Köpfe“ zu den Aussagen in diesem Newsletter
+      Stellung.
       <span class="text-red-700">
-        (Statements "Kluge Köpfe" farblich hervorgehoben)
+        (Statements "Klare Köpfe" farblich hervorgehoben)
       </span>
     </LayoutPageSection>
 
